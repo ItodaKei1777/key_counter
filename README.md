@@ -2,8 +2,11 @@
 ## 概要
 pythonのkeyboardライブラリを用いたキーカウンター。 キーマップの吟味などにご利用ください。
 
-## ファイルについて
-key_counter.py ……ソースコード keycounter ……linux実行ファイル config.json ……書き換えることで設定を変更 key_datas.csv ……ここへ記録上書き
+## 各ファイルについて
+key_counter.py ……ソースコード
+keycounter ……linux実行ファイル
+config.json ……書き換えることで設定を変更
+key_datas.csv ……ここへ記録上書き
 
 ## 使い方
 key_counterを実行してください。 初回、実行ディレクトリにkey_datas.csvとconfig.jsonが新しく作成されますので、基本的にこれら2つのファイルを準備する必要はありません。 作成されたkey_datas.csvにキーの押下回数が記録されます。2度目以降の実行時は、前回までの押下回数に累積して記録します。
